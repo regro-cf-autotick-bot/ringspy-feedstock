@@ -1,7 +1,7 @@
 About ringspy
 =============
 
-Home: https://github.com/kingyin3613/RingsPy
+Home: https://github.com/kingyin3613/ringspy
 
 Package license: GPL-3.0-or-later
 
@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ringspy-feedsto
 
 Summary: A geometric generation tool for prismatic cellular solids
 
-Development: https://github.com/kingyin3613/RingsPy
+Development: https://github.com/kingyin3613/ringspy
 
-Documentation: https://github.com/kingyin3613/RingsPy/wiki
+Documentation: https://github.com/kingyin3613/ringspy/wiki
 
 Current build status
 ====================
