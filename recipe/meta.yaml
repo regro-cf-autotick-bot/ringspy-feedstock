@@ -10,16 +10,16 @@ source:
   sha256: 3acfa4f50507cacafa79e49a37907fe5c7b9246cfb76030de257807a50374a4e
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - setuptools
     - wheel
     - requests >=2
@@ -34,6 +34,7 @@ test:
     - ringspy
   requires:
     - pip
+    - python {{ python_min }}
 
   commands:
     - pip check
